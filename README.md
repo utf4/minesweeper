@@ -1,24 +1,40 @@
-# README
+# Minesweeper Board Generator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Minesweeper board generator project! This project is built using Ruby on Rails, a powerful web application to generate minesweeper board.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+Before getting started, ensure that you have the following prerequisites installed on your system:
 
-* System dependencies
+- Ruby 3.1.2
+- Ruby on Rails 7.0.5
+- Database PostgreSQL
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get started with the project, follow these steps:
 
-* Database initialization
+1. Clone the repository: `git clone <repo-name>`
+2. Change to the project directory: `cd minesweeper-task`
+3. Install the required dependencies: `bundle install`
+4. Set up the database: `rails db:create`
+5. Set up the database: `rails db:migrate`
+6. Start the Rails server: `rails server`
+7. Open your web browser and visit: `http://localhost:3000`
 
-* How to run the test suite
+## Features
 
-* Services (job queues, cache servers, search engines, etc.)
+This Minesweeper Board generator project comes with the following features:
 
-* Deployment instructions
+- Minesweeper Board Generation
+- All Boards Listing
+- Recently Created Boards
+- Minesweeper Board View
 
-* ...
+## Configuration
+
+The project configuration can be found in the following files:
+
+- `config/application.rb`: Application-wide configuration settings
+- `config/database.yml`: Database configuration
+- `config/routes.rb`: Application routing configuration
