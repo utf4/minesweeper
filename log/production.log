@@ -1,0 +1,92 @@
+I, [2023-06-06T18:37:48.392104 #25878]  INFO -- : [49226221-2336-4220-91cc-66e86fa6464f] Started GET "/" for 127.0.0.1 at 2023-06-06 18:37:48 +0500
+I, [2023-06-06T18:37:48.394593 #25878]  INFO -- : [49226221-2336-4220-91cc-66e86fa6464f] Processing by HomeController#index as HTML
+I, [2023-06-06T18:37:48.400606 #25878]  INFO -- : [49226221-2336-4220-91cc-66e86fa6464f] Completed 500 Internal Server Error in 6ms (Allocations: 1416)
+F, [2023-06-06T18:37:48.401320 #25878] FATAL -- : [49226221-2336-4220-91cc-66e86fa6464f]   
+[49226221-2336-4220-91cc-66e86fa6464f] ActiveRecord::NoDatabaseError (We could not find your database: minesweeper_prod. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[49226221-2336-4220-91cc-66e86fa6464f]   
+[49226221-2336-4220-91cc-66e86fa6464f] app/controllers/home_controller.rb:3:in `index'
+I, [2023-06-06T18:38:00.697901 #25878]  INFO -- : [7cb628d2-d0e0-4cd5-84eb-3afda59b87a6] Started GET "/" for 127.0.0.1 at 2023-06-06 18:38:00 +0500
+I, [2023-06-06T18:38:00.699056 #25878]  INFO -- : [7cb628d2-d0e0-4cd5-84eb-3afda59b87a6] Processing by HomeController#index as HTML
+I, [2023-06-06T18:38:00.704531 #25878]  INFO -- : [7cb628d2-d0e0-4cd5-84eb-3afda59b87a6] Completed 500 Internal Server Error in 5ms (Allocations: 944)
+F, [2023-06-06T18:38:00.705786 #25878] FATAL -- : [7cb628d2-d0e0-4cd5-84eb-3afda59b87a6]   
+[7cb628d2-d0e0-4cd5-84eb-3afda59b87a6] ActiveRecord::NoDatabaseError (We could not find your database: minesweeper_prod. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[7cb628d2-d0e0-4cd5-84eb-3afda59b87a6]   
+[7cb628d2-d0e0-4cd5-84eb-3afda59b87a6] app/controllers/home_controller.rb:3:in `index'
+I, [2023-06-06T18:38:01.235270 #25878]  INFO -- : [23be6ba9-810c-4f22-857b-323c134d2fd9] Started GET "/favicon.ico" for 127.0.0.1 at 2023-06-06 18:38:01 +0500
+F, [2023-06-06T18:38:01.235912 #25878] FATAL -- : [23be6ba9-810c-4f22-857b-323c134d2fd9]   
+[23be6ba9-810c-4f22-857b-323c134d2fd9] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[23be6ba9-810c-4f22-857b-323c134d2fd9]   
+I, [2023-06-06T18:41:20.449867 #26082]  INFO -- : Migrating to CreateBoards (20230605123739)
+I, [2023-06-06T18:42:29.512839 #26170]  INFO -- : [4696d60c-f3e2-406a-a85d-3ed3e5cc4121] Started GET "/" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.514725 #26170]  INFO -- : [4696d60c-f3e2-406a-a85d-3ed3e5cc4121] Processing by HomeController#index as HTML
+I, [2023-06-06T18:42:29.574139 #26170]  INFO -- : [4696d60c-f3e2-406a-a85d-3ed3e5cc4121]   Rendered home/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 4282)
+I, [2023-06-06T18:42:29.581563 #26170]  INFO -- : [4696d60c-f3e2-406a-a85d-3ed3e5cc4121]   Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 6892)
+I, [2023-06-06T18:42:29.582250 #26170]  INFO -- : [4696d60c-f3e2-406a-a85d-3ed3e5cc4121] Completed 200 OK in 67ms (Views: 24.4ms | ActiveRecord: 17.1ms | Allocations: 17726)
+I, [2023-06-06T18:42:29.632913 #26170]  INFO -- : [215dd007-a9dc-4570-8814-94374a5b84d6] Started GET "/assets/application-6cff47df4f29e5c88d5383f6fb1637f2ac69227f958e37928be0edf93cbad733.css" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.638842 #26170]  INFO -- : [c164da41-010b-42f9-b0a3-18aa156d2b79] Started GET "/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.641692 #26170]  INFO -- : [9ad6fb67-dbe9-469e-8227-caba96c21d50] Started GET "/assets/turbo.min-f309baafa3ae5ad6ccee3e7362118b87678d792db8e8ab466c4fa284dd3a4700.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.643801 #26170]  INFO -- : [25df0f7d-e984-4b0c-b8f9-3acda9b51209] Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.642418 #26170]  INFO -- : [f20ed8bc-982e-4f68-bb14-c1b9b8600d0f] Started GET "/assets/stimulus.min-d03cf1dff41d6c5698ec2c5d6a501615a7a33754dbeef8d1edd31c928d17c652.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.645755 #26170]  INFO -- : [a3f34b72-4f55-47d9-919a-84afc9ca93fd] Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.730672 #26170]  INFO -- : [e7c50b66-10bf-41e4-af73-7dc5b5bfcbe7] Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.804587 #26170]  INFO -- : [5e603d63-92ce-4356-bd87-2d982a389d0c] Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.861108 #26170]  INFO -- : [26caf680-b8b9-477c-b384-d80f0aee34fb] Started GET "/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.862331 #26170]  INFO -- : [0c85dd3a-01ca-4abe-9e30-ad29072119fd] Started GET "/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.864293 #26170]  INFO -- : [5ac9275c-8396-4f0d-ab71-099f5eff4cc9] Started GET "/assets/turbo.min-f309baafa3ae5ad6ccee3e7362118b87678d792db8e8ab466c4fa284dd3a4700.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.865586 #26170]  INFO -- : [991d8236-bdd0-4b3a-853e-9e09af111602] Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:29.867303 #26170]  INFO -- : [6919545d-e3a0-424b-82f2-ef9e2454c18d] Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2023-06-06 18:42:29 +0500
+I, [2023-06-06T18:42:30.012048 #26170]  INFO -- : [40b468f4-dc92-40c4-b7af-bb293552d05a] Started GET "/assets/stimulus.min-d03cf1dff41d6c5698ec2c5d6a501615a7a33754dbeef8d1edd31c928d17c652.js" for 127.0.0.1 at 2023-06-06 18:42:30 +0500
+I, [2023-06-06T18:42:30.068114 #26170]  INFO -- : [6fa33b97-f226-44c7-8196-fe3faeb35f43] Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2023-06-06 18:42:30 +0500
+I, [2023-06-06T18:42:30.219097 #26170]  INFO -- : [6e2e8344-cfc1-4288-a678-a9e47c5b4d73] Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2023-06-06 18:42:30 +0500
+I, [2023-06-06T18:42:30.280638 #26170]  INFO -- : [3a64bae0-70b2-43de-8320-055d5c397bde] Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2023-06-06 18:42:30 +0500
+I, [2023-06-06T18:42:39.707383 #26170]  INFO -- : [e3b2ccaf-9533-47d4-b696-8801aba26716] Started POST "/boards" for 127.0.0.1 at 2023-06-06 18:42:39 +0500
+I, [2023-06-06T18:42:39.708185 #26170]  INFO -- : [e3b2ccaf-9533-47d4-b696-8801aba26716] Processing by BoardsController#create as TURBO_STREAM
+I, [2023-06-06T18:42:39.708261 #26170]  INFO -- : [e3b2ccaf-9533-47d4-b696-8801aba26716]   Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"Latest", "email"=>"test@test.com", "width"=>"4", "height"=>"4", "num_mines"=>"4"}, "commit"=>"Generate Board"}
+I, [2023-06-06T18:42:39.714685 #26170]  INFO -- : [e3b2ccaf-9533-47d4-b696-8801aba26716] Redirected to http://0.0.0.0:3000/boards/1
+I, [2023-06-06T18:42:39.714830 #26170]  INFO -- : [e3b2ccaf-9533-47d4-b696-8801aba26716] Completed 302 Found in 6ms (ActiveRecord: 1.2ms | Allocations: 2110)
+I, [2023-06-06T18:42:39.718929 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef] Started GET "/boards/1" for 127.0.0.1 at 2023-06-06 18:42:39 +0500
+I, [2023-06-06T18:42:39.719578 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef] Processing by BoardsController#show as TURBO_STREAM
+I, [2023-06-06T18:42:39.719635 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef]   Parameters: {"id"=>"1"}
+I, [2023-06-06T18:42:39.724504 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef]   Rendered boards/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 526)
+I, [2023-06-06T18:42:39.726836 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1777)
+I, [2023-06-06T18:42:39.727082 #26170]  INFO -- : [8449ce39-d72d-447c-b28a-ee7a5e4b4cef] Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 3019)
+I, [2023-06-06T18:45:20.311260 #26170]  INFO -- : [7b81e14b-77d5-4802-a2a9-7771ed592450] Started GET "/" for 127.0.0.1 at 2023-06-06 18:45:20 +0500
+I, [2023-06-06T18:45:20.311987 #26170]  INFO -- : [7b81e14b-77d5-4802-a2a9-7771ed592450] Processing by HomeController#index as HTML
+I, [2023-06-06T18:45:20.316334 #26170]  INFO -- : [7b81e14b-77d5-4802-a2a9-7771ed592450]   Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2272)
+I, [2023-06-06T18:45:20.317156 #26170]  INFO -- : [7b81e14b-77d5-4802-a2a9-7771ed592450]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2838)
+I, [2023-06-06T18:45:20.317365 #26170]  INFO -- : [7b81e14b-77d5-4802-a2a9-7771ed592450] Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 3095)
+I, [2023-06-06T18:45:24.142366 #26170]  INFO -- : [f6c8a3a5-7fd4-4aa9-b578-cc39d3738178] Started GET "/boards" for 127.0.0.1 at 2023-06-06 18:45:24 +0500
+I, [2023-06-06T18:45:24.143023 #26170]  INFO -- : [f6c8a3a5-7fd4-4aa9-b578-cc39d3738178] Processing by BoardsController#index as HTML
+I, [2023-06-06T18:45:24.147646 #26170]  INFO -- : [f6c8a3a5-7fd4-4aa9-b578-cc39d3738178]   Rendered boards/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 984)
+I, [2023-06-06T18:45:24.148706 #26170]  INFO -- : [f6c8a3a5-7fd4-4aa9-b578-cc39d3738178]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1678)
+I, [2023-06-06T18:45:24.148907 #26170]  INFO -- : [f6c8a3a5-7fd4-4aa9-b578-cc39d3738178] Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 2107)
+I, [2023-06-06T18:45:34.922284 #26170]  INFO -- : [fc81aa99-93ac-42c2-bed1-48421d551e53] Started POST "/boards" for 127.0.0.1 at 2023-06-06 18:45:34 +0500
+I, [2023-06-06T18:45:34.922973 #26170]  INFO -- : [fc81aa99-93ac-42c2-bed1-48421d551e53] Processing by BoardsController#create as TURBO_STREAM
+I, [2023-06-06T18:45:34.923041 #26170]  INFO -- : [fc81aa99-93ac-42c2-bed1-48421d551e53]   Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"name"=>"Latest", "email"=>"test@test.com", "width"=>"3", "height"=>"3", "num_mines"=>"33"}, "commit"=>"Generate Board"}
+I, [2023-06-06T18:45:34.924854 #26170]  INFO -- : [fc81aa99-93ac-42c2-bed1-48421d551e53] Redirected to http://0.0.0.0:3000/
+I, [2023-06-06T18:45:34.924966 #26170]  INFO -- : [fc81aa99-93ac-42c2-bed1-48421d551e53] Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 870)
+I, [2023-06-06T18:45:34.928596 #26170]  INFO -- : [973321d4-484e-40cb-b087-3cc5919d6c83] Started GET "/" for 127.0.0.1 at 2023-06-06 18:45:34 +0500
+I, [2023-06-06T18:45:34.929199 #26170]  INFO -- : [973321d4-484e-40cb-b087-3cc5919d6c83] Processing by HomeController#index as TURBO_STREAM
+I, [2023-06-06T18:45:34.933033 #26170]  INFO -- : [973321d4-484e-40cb-b087-3cc5919d6c83]   Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2102)
+I, [2023-06-06T18:45:34.933973 #26170]  INFO -- : [973321d4-484e-40cb-b087-3cc5919d6c83]   Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2709)
+I, [2023-06-06T18:45:34.934168 #26170]  INFO -- : [973321d4-484e-40cb-b087-3cc5919d6c83] Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 2934)
